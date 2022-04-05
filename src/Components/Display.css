@@ -1,0 +1,118 @@
+body {
+  height: 100%;
+}
+.bg {
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 948px;
+  display: flex;
+  justify-content: space-between;
+}
+.bg-cloudy {
+  background-image: url(./Assets/cloudy.jpg);
+}
+.bg-haze {
+  background-image: url(./Assets/haze.jpg);
+}
+.bg-smoke {
+  background-image: url(./Assets/smoke.jpg);
+}
+.bg-clear {
+  background-image: url(./Assets/clear.jpeg);
+}
+.bg-rain {
+  background-image: url(./Assets/rain.jpeg);
+}
+.bg-default {
+  background-image: url(./Assets/spring.jpeg);
+}
+
+.content-form {
+  background-color: #4a4541;
+  opacity: 0.7;
+  width: 40%;
+}
+
+.search-input {
+  color: white;
+  font-size: 19px;
+  height: 70px;
+  border: transparent;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  opacity: 1;
+  width: 80%;
+}
+.form-row-options-items {
+  margin-top: 38px;
+  border-bottom: 1px solid white;
+  margin-right: 50px;
+}
+.form-row-options {
+  margin-bottom: 32px;
+}
+.form-row-options:hover {
+  cursor: pointer;
+}
+.form-row {
+  opacity: 1;
+}
+.search-content {
+  display: flex;
+  justify-content: space-between;
+}
+.searchIcon {
+  padding: 15px;
+  background-color: black;
+}
+.content-form-items {
+  margin-left: 70px;
+}
+.weather-options {
+  margin-top: 57px;
+  margin-bottom: 65px;
+}
+.weather-details {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.next-day-details {
+  margin-top: 40px;
+}
+.content {
+  margin-top: 586px;
+  display: flex;
+  margin-left: 71px;
+}
+.temp {
+  font-size: 80px;
+  margin-top: -11px;
+}
+
+.location {
+  font-size: 40px;
+  margin-bottom: -15px;
+}
+img {
+  height: 50px;
+  margin-bottom: -7px;
+}
+.clouds {
+  margin-left: 36px;
+}
+.location-details {
+  margin-left: 20px;
+}
+span {
+  margin-top: 586px;
+  font-size: 50px;
+}
+.conversion-btn {
+  color: azure;
+}
+.tgBtn {
+  margin-left: 20px;
+}
